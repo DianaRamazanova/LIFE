@@ -26,7 +26,7 @@ namespace LIFE
         //cameback map for read
         public Cell[,] Map => _map;
         
-        public int CountOfLivingCellsArround(Point2D point) // подсчитывает количество живых ячейк вокруг точки
+        public int CountOfLivingCellsAround(Point2D point) // подсчитывает количество живых ячейк вокруг точки
         {
             // Карта для наглядности
             /*
