@@ -8,7 +8,7 @@ namespace LIFE
 {
     public struct Point2D
     {
-        int X, Y;
+        public int X, Y;
 
         public Point2D (int x = 0, int y = 0)
         {
